@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gelber Schein Roulette</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <div class="background-glow background-glow-left"></div>
+    <div class="background-glow background-glow-right"></div>
+
+    <main class="app">
+      <header class="hero">
+        <h1>Gelber Schein Roulette</h1>
+      </header>
+
+      <section class="roulette-panel" aria-label="Roulette">
+        <div class="spotlight"></div>
+        <div class="reel-frame">
+          <div class="center-line is-hidden" aria-hidden="true"></div>
+          <div class="reel-viewport" id="reelViewport">
+            <div class="reel-track" id="reelTrack"></div>
+          </div>
+        </div>
+
+        <button class="open-button" id="openButton" type="button">DREHEN</button>
+      </section>
+    </main>
+
+    <p class="site-credit">made by UFO_BIRD</p>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
